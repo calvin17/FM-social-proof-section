@@ -28,7 +28,7 @@ body {
     font-size: 3rem;
     line-height: 3rem; }
   .header .header-discription {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     line-height: 1.5;
     padding: 1.5rem 0rem; }
 
@@ -42,7 +42,7 @@ body {
     background-color: #f7f2f7;
     border-radius: 0.8rem;
     margin-bottom: 2rem;
-    padding: 1.5rem 3rem; }
+    padding: 1rem 3rem; }
     .reviews .review .review-star {
       display: flex;
       justify-content: center; }
@@ -80,7 +80,7 @@ body {
           margin-top: 0.3rem; }
     .comments .comment .comment-txt {
       margin-top: 2rem;
-      font-size: 1.2rem;
+      font-size: 1.3rem;
       line-height: 2rem; }
 
 /* DESKTOP */
@@ -93,13 +93,13 @@ body {
     display: grid;
     grid-template-areas: "header . reviews" "comments comments comments";
     row-gap: 5rem;
-    margin: 10vh 8vw; }
+    margin: 10vh 12vw; }
   .header {
     grid-area: header;
     text-align: left; }
     .header .header-txt {
-      font-size: 4rem;
-      line-height: 4rem; }
+      font-size: 4.5rem;
+      line-height: 4.5rem; }
     .header .header-discription {
       padding: 1.5rem 0rem; }
   .reviews {
@@ -110,7 +110,7 @@ body {
       align-items: center;
       flex-basis: auto; }
       .reviews .review .review-source {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         padding: 1rem 2.3rem; }
       .reviews .review:nth-child(1) {
         margin-left: 3.5rem;
